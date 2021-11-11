@@ -18,9 +18,10 @@ components:{
 </script>
 
 <style lang="scss">
+@import "../assets/scss/variables";
 .content{
     color: white;
-    background-color:#1c1c1c ;
+    background-color:$secondary_color;
 }
 
 </style>

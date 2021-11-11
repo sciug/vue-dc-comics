@@ -23,15 +23,17 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/scss/variables";
+
 
 .footer_sign_up_bg{
-    background-color: #303030;
+    background-color: $third_color;
 }
 .social{
     list-style: none;
     align-items: center;
     .follow{
-        color:#0282f9;
+        color:$base_color;
         font-size: 1.3rem;
         font-weight: bold;
         text-transform: uppercase;
@@ -41,7 +43,7 @@ export default {
     }
 }
 .sign-up{
-    border: 2px solid #0282f9;
+    border: 2px solid $base_color;
     color: white;
     background:none;
     padding: .5rem 1rem;

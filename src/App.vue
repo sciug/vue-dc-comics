@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import url('./assets/scss/common.scss');
+@import './assets/scss/common.scss';
 .main{
   height: 800px;
   background: rebeccapurple;

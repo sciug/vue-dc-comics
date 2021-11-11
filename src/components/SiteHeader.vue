@@ -29,7 +29,7 @@ export default {
 </script>
 
 <style  lang="scss">
-@import "./assets/scss/variables";
+@import "../assets/scss/variables";
 .site_header{
     padding-top: 1.5rem;
 }
@@ -46,14 +46,14 @@ display:flex;
     a{
         text-decoration: none;
 
-        color:#303030;
+        color:$third_color;
         text-transform: uppercase;
         font-weight: 800;
         font-size: .7em;
         margin: 0 .7rem;
         &.active{
-        color: #0282f9;
-        border-bottom: 5px solid #0282f9;
+        color: $base_color;
+        border-bottom: 5px solid $base_color;
     }
     }
     

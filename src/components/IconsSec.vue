@@ -51,8 +51,10 @@ export default {
 </script>
 
 <style lang="scss">
+@import "../assets/scss/variables";
+
 .background{
-    background-color: #0282f9;}
+    background-color: $base_color;}
 .icons{
     width: 100%;
     display: flex;
