@@ -34,14 +34,14 @@ export default {
     padding-top: .5rem;
 }
 .logo{
-    width: 80px;
+    width: 70px;
     padding-bottom: .5rem;
     img{
         width: 100%;
     }
 }
 .menu{
-    padding-top: 2rem;
+    padding-top: 1rem;
 display:flex;
     a{
         text-decoration: none;
@@ -50,7 +50,7 @@ display:flex;
         text-transform: uppercase;
         font-weight: 800;
         font-size: .7em;
-        margin: 0 1rem;
+        margin: 0 .7rem;
         &.active{
         color: #0282f9;
         border-bottom: 5px solid #0282f9;
