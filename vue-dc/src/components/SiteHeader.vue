@@ -1,0 +1,63 @@
+<template>
+  <div class="container d-flex space_between_align_center site_header">
+      <div class="logo">
+          <img src="../assets/img/dc-logo.png" alt="dc logo">
+      </div>
+      <nav class="menu">
+          <a href="#">Characters</a>
+          <a href="#" class="active">Comics</a>
+          <a href="#">Movies</a>
+          <a href="#">Tv</a>
+          <a href="#">Games</a>
+          <a href="#">collectibles</a>
+          <a href="#">videos</a>
+          <a href="#">fans</a>
+          <a href="#">news</a>
+          <a href="#">shop</a>
+
+          
+
+      </nav>
+
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style  lang="scss">
+@import url('../assets/scss/variables.scss');
+.site_header{
+    padding-top: .5rem;
+}
+.logo{
+    width: 80px;
+    padding-bottom: .5rem;
+    img{
+        width: 100%;
+    }
+}
+.menu{
+    padding-top: 2rem;
+display:flex;
+    a{
+        text-decoration: none;
+
+        color:#303030;
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: .7em;
+        margin: 0 1rem;
+        &.active{
+        color: #0282f9;
+        border-bottom: 5px solid #0282f9;
+    }
+    }
+    
+}
+
+
+</style>
