@@ -31,11 +31,11 @@ export default {
 <style  lang="scss">
 @import url('../assets/scss/variables.scss');
 .site_header{
-    padding-top: .5rem;
+    padding-top: 1.5rem;
 }
 .logo{
     width: 70px;
-    padding-bottom: .5rem;
+    padding-bottom: .8rem;
     img{
         width: 100%;
     }

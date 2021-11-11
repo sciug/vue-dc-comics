@@ -75,7 +75,7 @@ export default {
 
 <style lang="scss">
 .background_footer{
-    height: 310px;
+    height: 350px;
     background-size: cover;
     background-image: url('../assets/img/footer-bg.jpg');
   }
