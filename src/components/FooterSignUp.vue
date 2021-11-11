@@ -23,6 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 .footer_sign_up_bg{
     background-color: #303030;
 }
