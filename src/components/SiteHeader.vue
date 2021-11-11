@@ -29,7 +29,6 @@ export default {
 </script>
 
 <style  lang="scss">
-@import url('../assets/scss/variables.scss');
 .site_header{
     padding-top: 1.5rem;
 }
