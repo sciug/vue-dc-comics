@@ -1,9 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Greta Sans Condensed Bold,Greta Sans Bold,Arial,sans-serif
-}
+    font-family: 'Barlow Condensed', sans-serif;}
 .container{
     width:80%;
     margin: 0 auto;
@@ -22,4 +22,21 @@
 }
 .relative{
     position: relative;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-2{
+    width: calc(100% / 6);
+}
+.justify_center{
+    justify-content: center;
+}
+.button{
+   
+    cursor:pointer;
+    color: white;
+    text-transform: uppercase;
+
 }

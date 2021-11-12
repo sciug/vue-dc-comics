@@ -5,9 +5,14 @@
       </div>
       <div class="container padding relative">
            <h2 class="current_series_title">current series</h2>
-           <div class="products">
-               <Product v-for="product in products" :key="product.series" :thumb="product.thumb" :series="product.series"/>
+           <div class="products row justify_center">
+               
+               <Product class="col-2" v-for="product in products" :key="product.series" :thumb="product.thumb" :series="product.series"/>
+               <button class="load_more button">load more</button>
+
+
            </div>
+           
       </div>
       <IconsSec/>
      
@@ -124,5 +129,15 @@ data(){
     top:-1.2rem;
     padding: .5rem 1.6rem;
     font-size: 1.3rem;
+}
+.products{
+    margin-top: 2rem;
+}
+.load_more{
+    background-color: $base_color;
+    border: none;
+    font-weight: 800;
+    letter-spacing: .5px;
+     padding: .5rem 4rem;
 }
 </style>

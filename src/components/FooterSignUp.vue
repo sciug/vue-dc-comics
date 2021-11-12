@@ -1,7 +1,7 @@
 <template>
   <div class="footer_sign_up_bg">
       <div class="container padding d-flex space_between_align_center">
-          <button class="sign-up">SIGN-UP NOW!</button>
+          <button class="sign-up button">SIGN-UP NOW!</button>
           <ul class="social d-flex">
               <li class="follow">Follow Us</li>
               <li><a href="#"><img src="../assets/img/footer-facebook.png" alt=""></a></li>
@@ -44,9 +44,8 @@ export default {
 }
 .sign-up{
     border: 2px solid $base_color;
-    color: white;
     background:none;
-    padding: .5rem 1rem;
-    cursor:pointer;
+     padding: .5rem 1rem;
+    
 }
 </style>

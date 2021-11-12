@@ -23,6 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;400;600;800&display=swap');
 @import './assets/scss/common.scss';
 .main{
   height: 800px;
