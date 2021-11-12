@@ -46,6 +46,7 @@ export default {
     border: 2px solid $base_color;
     background:none;
      padding: .5rem 1rem;
+     font-family: Arial, Helvetica, sans-serif;
     
 }
 </style>

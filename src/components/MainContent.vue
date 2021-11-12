@@ -129,11 +129,14 @@ data(){
     top:-1.2rem;
     padding: .5rem 1.6rem;
     font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 .products{
     margin-top: 2rem;
 }
 .load_more{
+    margin-top: 2rem;
     background-color: $base_color;
     border: none;
     font-weight: 800;

@@ -26,6 +26,9 @@ export default {
     h3{
         font-weight: 200;
         margin-top: .8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        font-size: .8rem;
     }
 }
 

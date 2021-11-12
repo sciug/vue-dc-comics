@@ -46,11 +46,11 @@ display:flex;
     a{
         text-decoration: none;
 
-        color:$third_color;
+        color:$fourth_color;
         text-transform: uppercase;
         font-weight: 800;
-        font-size: .7em;
-        margin: 0 .7rem;
+        font-size: .9em;
+        margin: 0 1rem;
         &.active{
         color: $base_color;
         border-bottom: 5px solid $base_color;
