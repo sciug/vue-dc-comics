@@ -106,8 +106,8 @@ export default {
             a{
              text-decoration: none;
             color: rgba(182, 181, 181, 0.664);
-            font-size: .7rem;
-            font-weight: 700;
+            font-size: .9rem;
+            font-weight: 500;
             text-transform: capitalize;
             letter-spacing: .5px;
 

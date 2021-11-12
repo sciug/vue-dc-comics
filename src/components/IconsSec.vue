@@ -75,6 +75,7 @@ export default {
         text-transform: uppercase;
         font-size: .8rem;
         letter-spacing: 1px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
 
